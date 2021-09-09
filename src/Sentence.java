@@ -18,6 +18,12 @@
 public class Sentence {
 
     public static void main(String[] args) {
+        System.out.println("it is a great ");
+        System.out.println("time to be a ");
+        System.out.print("computer programmer! ");
+
+
+
         //first output statement
 
         //second output statement
