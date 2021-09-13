@@ -13,7 +13,9 @@ public class DateFormat {
         System.out.println("What is the day of the month");
         int Month2 = scan.nextInt();
         System.out.println("American Format:");
-        System.out.println("month + " " + day + " " + year + " " + Month2");
+        System.out.println(day + ", " + month + " " + Month2 + ", " + year);
+        System.out.println("European Format:");
+        System.out.println(day + ", " + Month2 + " " + month + ", " +year);
 
 
 
