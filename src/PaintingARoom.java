@@ -23,12 +23,20 @@ public class PaintingARoom {
         double wall3 = height*length;
         double wall4 = wall3;
         double ceiling = length*width;
-        double total1 = wall1+wall2+wall3+wall4+ceiling;
-        double aread = (double)(doors*15);
-        double areaw = (double)(windows*10);
+        final int doord = 15;
+        final int doorw = 10;
+        double aread = (double)(doors*doord);
+        double areaw = (double)(windows*doorw);
         double area1 = wall1+wall2+wall3+wall4+ceiling;
         double area2 = area1-aread-areaw;
-        double gallons = area2/350;
+        final int gallonconvert = 350;
+        double gallons1 = area2/gallonconvert;
+        double gallons2 = gallons1*10;
+        double gallons3 = (int)gallons2+10-1;
+        int gallons = (int)(gallons3/10);
+        System.out.println("You will need " + gallons + " gallons of paint.");
+
+
 
 
 
